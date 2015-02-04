@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline
+}
+
+
+ /*  FIN DU RESET */ 
+
+
+/* POLICES */
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../polices/bebas/bebasneue-webfont.eot');
+    src: url('../polices/bebas/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/bebas/bebasneue-webfont.woff2') format('woff2'),
+         url('../polices/bebas/bebasneue-webfont.woff') format('woff'),
+         url('../polices/bebas/bebasneue-webfont.ttf') format('truetype'),
+         url('../polices/bebas/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'champagne__limousinesregular';
+    src: url('../polices/champagne/champagne__limousines-webfont.eot');
+    src: url('../polices/champagne/champagne__limousines-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/champagne/champagne__limousines-webfont.woff2') format('woff2'),
+         url('../polices/champagne/champagne__limousines-webfont.woff') format('woff'),
+         url('../polices/champagne/champagne__limousines-webfont.ttf') format('truetype'),
+         url('../polices/champagne/champagne__limousines-webfont.svg#champagne__limousinesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* FIN POLICES  */
+  
+/* HEADER */
+
+header
+{
+	color: #fff;
+	height: 136px;
+}
+
+#headerTop
+{
+	background-color: #20272d;	
+	height: 60px;
+}
+
+
+.htop
+{
+	width: 70%;
+	margin-left: 15%;
+	height: 52px;
+	padding-top: 4px;
+}
+
+
+
+#header_logo
+{
+	width: 150px;
+	display: inline-block;
+}
+
+#logo_pokemon
+{
+	width: 85%;
+}
+
+#header_links
+{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+	width: 300px;
+}
+
+#header_links li
+{
+	list-style-type: none;
+	display: inline;
+	margin-left: 15px;
+}
+
+#header_links img
+{
+	width: 12%;
+}
+
+
+#headerBot
+{
+	background-color: #323844;
+	height: 76px;
+}
+
+#hbot1
+{
+	height: 46px;
+	border-bottom: solid 1px #272c36;		
+}
+
+#hbot2
+{
+	height: 30px;
+	border-top: solid 1px #454b56;
+}
+
+
+.container
+{
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 2px;
+}

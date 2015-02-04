@@ -1,0 +1,192 @@
+
+
+/* RESET */
+
+body
+{
+	padding:50px;
+	font-family:'Courier New';
+	font-weight:normal;
+	text-align: center;
+	font-weight: bold;
+	color: #224156;
+	background: #16142B;
+	height: 100%;
+}
+
+a
+{
+	outline:none
+}
+
+ul
+{
+	margin:0;
+	padding:0;
+}
+
+h1
+{
+	margin-top: -5px;
+}
+
+
+#bloc_page
+{
+	width: 90%;
+	height: 500px;
+	margin-left: 60px;
+	background: #FFFFFF;
+	margin-top: -20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: -40px;
+}
+
+
+#pokeball1
+{
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+#pokeball2
+{
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-right: 5px;
+	padding-bottom: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mon boutton */
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100));
+	background:-moz-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+	background:-webkit-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+	background:-o-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+	background:-ms-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100',GradientType=0);
+	background-color:#fe1a00;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Courier New';
+	font-size:20px;
+	font-weight:bold;
+	padding:8px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00));
+	background:-moz-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+	background:-webkit-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+	background:-o-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+	background:-ms-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00',GradientType=0);
+	background-color:#ce0100;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/* DIAPO */
+
+.diaporama{
+	position:relative;
+	width:650px;
+	height:288px;
+	left: 500px;
+	margin-top: 40px;
+}
+
+.diaporama li{
+	list-style-type:none;
+	overflow:hidden;
+	position:absolute;
+}
+
+.diaporama_controls{
+	width:52%;
+	margin:3px 0;
+	padding:5px;
+	clear:both;
+	overflow:hidden;
+
+}
+
+.diaporama_controls .btns{
+	float:right;
+}
+
+.diaporama_controls a{
+	font-weight:normal;
+	width:10px;
+	height:13px;
+	text-indent:-9999px;
+	display:inline-block;
+	margin:0 3px;
+}
+
+.diaporama_controls .prev{
+	background:url(../intro/img/fleches_diapo.png) no-repeat top right;
+}
+
+.diaporama_controls .next{
+	background:url(../intro/img/fleches_diapo.png) no-repeat top left;
+}
+
+.diaporama_controls .pause{
+	background:url(../intro/img/fleches_diapo.png) no-repeat bottom right;
+}
+
+.diaporama_controls .play{
+	background:url(../intro/img/fleches_diapo.png) no-repeat bottom left;
+}
+
+
+
+
+
